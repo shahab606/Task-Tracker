@@ -6,13 +6,13 @@ pipeline{
     
     stages{
         
-        stage('Checkout Code'){
-            steps{
-                script{
-                    git url: 'https://github.com/shahab606/Task-Tracker.git' , branch: 'main'
-                }    
-            }
-        } 
+        //stage('Checkout Code'){
+            //steps{
+               // script{
+                  //  git url: 'https://github.com/shahab606/Task-Tracker.git' , branch: 'main'
+               // }    
+           // }
+    //   } 
         
         
         
